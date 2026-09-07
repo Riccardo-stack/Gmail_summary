@@ -1,0 +1,13 @@
+[project]
+name = "gmail-morning-summary"
+version = "0.1.0"
+description = "Morning Gmail summary: filters out noise and emails you a digest of what matters."
+requires-python = ">=3.10"
+dependencies = [
+    "google-api-python-client>=2.140.0",
+    "google-auth-httplib2>=0.2.0",
+    "google-auth-oauthlib>=1.2.0",
+]
+
+[tool.uv]
+package = false

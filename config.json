@@ -1,0 +1,28 @@
+{
+  "send_to": "me",
+  "lookback_hours": 24,
+  "exclude_categories": ["promotions", "social"],
+  "exclude_newsletters": true,
+  "account_notification_keywords": [
+    "security alert",
+    "new sign-in",
+    "new sign in",
+    "sign-in attempt",
+    "sign in attempt",
+    "password reset",
+    "password changed",
+    "verify your",
+    "verification code",
+    "login alert",
+    "log in alert",
+    "two-factor",
+    "2-step verification",
+    "account activity"
+  ],
+  "linkedin": {
+    "enabled": true,
+    "job_offer_keywords": ["job alert", "jobs for you", "new jobs", "job opportunity"]
+  },
+  "summary_max_chars": 280,
+  "max_emails": 50
+}
